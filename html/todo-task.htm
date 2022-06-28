@@ -1,0 +1,84 @@
+<!DocType html>
+
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/todo-task.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+
+
+  <title>TO-DO LIST</title>
+
+<body>
+
+  <body>
+    <div class="container">
+      <form class="signup" name="from" id="form">
+
+
+        <div class="header_div">
+          <h1>TO-DO LIST:</h1>
+          <hr>
+        </div>
+        <div class="body_div">
+          <div class="h_grp">
+
+            <h2 class="G_titles asterick">Enter TO-DO task Here:</h2>
+            <div class="grp left">
+              <input type="text" id="name" name="name" size="40%" class="form-input">
+              <p id="p1"></p>
+              <!-- <label for="fname">to-do task</label> -->
+
+            </div>
+
+
+          </div>
+          <button type="submit" id="add" value="Submit" class="submit_class">Enter</button>
+        </div>
+
+
+
+
+
+        <!-- table data -->
+
+
+
+
+        <div class="">
+          <table id="list">
+            <title>TO-DO LIST:</title>
+            <thead>
+
+
+              <BR>
+
+
+              <tr>
+
+                <th> TASK</th><br>
+
+                <th>Edit </th><br>
+                <th>Action </th><br>
+
+
+              </tr>
+
+
+
+
+            </thead>
+            <tbody id="displayArea"></tbody>
+          </table>
+        </div>
+
+
+        <script src="../jq/todo-task.js"></script>
+  </body>
+
+</html>
