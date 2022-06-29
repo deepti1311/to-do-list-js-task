@@ -9,7 +9,7 @@ $("#form").submit(function (event) {
         name +
         "</td><td>" +
         ' <button type="button" id="done_btn" class="DONE">DONE</button>  <button type="button" class="rem" id="B1">DELETE</button> <button type="button"  id="undo_btn" class="edit" id="B1">UNDO</button>' +
-        "</td><td class='mark'></td></tr>"
+        "</td><td class='mark' id='mark'></td></tr>"
     );
   }
 
@@ -26,7 +26,7 @@ $("#form").submit(function (event) {
 
     $(".rem").click(function () {
       var row_count = list.rows.length;
-      if (row_count > 2) {
+      if (row_count > 2 && $(this).parent().siblings(".mark").html() == '❌') {
         $(this).parent().parent().remove();
       }
     });
