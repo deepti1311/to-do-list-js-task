@@ -6,19 +6,7 @@
   background-color: white;
 }
 
-.cross:before {
-  content: '\2716';
-  font-size: 20px;
-}
 
-.mark::edit {
-  color: red;
-}
-
-.asterick::after {
-  content: "*";
-  color: red
-}
 
 body {
   background-color: aliceblue;
@@ -74,37 +62,6 @@ body {
   font-weight: lighter;
 }
 
-.t_area {
-  resize: none;
-}
-
-.r_check {
-  padding-top: 150px;
-  font-weight: bold;
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-table {
-  table-layout: fixed;
-
-  width: 80%;
-  /* border: 1px solid; */
-}
-
-td,
-th {
-  /* / border-style: solid;/  */
-  word-wrap: break-word;
-
-  border: 1px solid;
-  background-color: #dddddd;
-
-}
-
-td {
-  border: 1px solid;
-}
 
 .submit_class {
   border: none;
@@ -117,52 +74,6 @@ td {
   margin: 8px;
   background-color: green;
 
-}
-
-
-
-.number {
-  width: 20px;
-  text-align: center;
-
-  border: 0px;
-
-}
-
-.tfield {
-  /* / background-color: ;/ */
-  text-align: center;
-
-}
-
-.t_input {
-  border: none;
-  width: auto;
-  display: inline-block;
-
-}
-
-.wtd {
-  background-color: white;
-}
-
-.empty_row {
-  background-color: white;
-}
-
-
-
-
-input.error,
-textarea.error {
-  border: 2px solid red;
-  font-size: 100%;
-  /* color: red; */
-}
-
-.gender {
-  font-size: 16;
-  float: inline-start;
 }
 
 
@@ -200,4 +111,31 @@ textarea.error {
   text-align: left;
   background-color: #a0e4cb;
   color: white;
+}
+
+
+
+
+#done_btn {
+  color: green;
+}
+
+#B1 {
+  color: red;
+}
+
+#undo_btn {
+  color: cornflowerblue;
+}
+
+#mark {
+  color: red;
+}
+
+/* .mark {
+  color: green;
+} */
+
+.DONE .mark {
+  color: green;
 }
